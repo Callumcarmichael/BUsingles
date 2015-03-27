@@ -23,7 +23,7 @@
 <div class="container">
         <div class="jumbotron">
             <form name="search" method="post" action="match.php">
-                <p>Hair colour:</p>
+                <p>Hair:</p>
                 <select name="hair">
                     <option value="">Select...</option>
                     <option value="Brown">Brown</option>
