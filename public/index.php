@@ -67,8 +67,37 @@
                 <option value="">Select...</option>
                 <option value="Digital Media Design">Digital Media Design BA (Hons)</option>   
                 <option value="Advertising BA (Hons)">Advertising BA (Hons)</option>
-                <option value="Computer Animation Arts BA (Hons)">Computer Animation Arts BA                    (Hons)</option>
-                <option value="History BA (Hons)">History BA (Hons)</option></select></p><br>
+                <option value="Computer Animation Arts BA (Hons)">Computer Animation Arts BA (Hons)</option>
+               </select></p><br>
+           <p>Smoker
+                <select required name="smoker">
+                <option value="">Select...</option>
+                <option value="No">No</option>   
+                <option value="Light">Light</option>
+                <option value="Moderate">Moderate</option>
+                <option value="Heavy">Heavy</option>
+                </select></p><br>
+            <p>Drinker
+                <select required name="drinker">
+                <option value="">Select...</option>
+                <option value="None">None</option>   
+                <option value="Light">Light</option>   
+                <option value="Social">Social</option>
+                <option value="Frequent">Frequent</option>
+                <option value="Heavy">Heavy</option>
+                </select></p><br>
+             <p>Height
+                <select required name="height">
+                <option value="">Select...</option>
+                <option value="Below 5'">Below 5'</option>   
+                <option value="5ft1-5ft4">5ft1-5ft4</option>   
+                <option value="5ft5-5ft8">5ft5-5ft8</option>
+                <option value="5ft9-6ft">5ft9-6ft</option>
+                <option value="6ft1-6ft4">5ft1-5ft4</option>
+                <option value="6ft5-6ft8">5ft1-5ft4</option>
+                <option value="Above 6ft9">Above 6ft9</option> 
+                </select></p><br>
+                
            <p>Bio:</p> <textarea required name="biography" maxlength="200" placeholder="Enter a short description"></textarea><br>
               
         <input type="submit" name="register" value="register" class="btn btn-success" >
