@@ -61,18 +61,31 @@
             </form>
     
     <?php
-    if(isset($_POST["hair"])){
-        $query = "SELECT * FROM users WHERE hair='$_POST[hair]'";
-        $result = mysqli_query($connection, $query);
-        while($row = mysqli_fetch_array($result)){
-        echo $row["hair"];} }?>
+    if(isset($_POST["search"])){
+        
+        if(!empty($_POST["hair"]) && !empty($_POST["gender"])) {
+            $hair = $_POST["hair"];
+            $gender = $_POST["gender"];
+            $age = $_POST["age"];
+            $uni = $_POST["uni"];
+
+            $query = "SELECT * FROM users WHERE hair='{$hair}' AND gender='{$gender}'AND age='{$age}'AND uni='{$uni}'";
+
+            $result = mysqli_query($connection, $query);
+            while($row = mysqli_fetch_array($result)){
+
+            echo $row["firstname"];
+
+            }
+        }
+        
+        
+    }
+        
+
     
-    <?php
-    if(isset($_POST["gender"])){
-        $query = "SELECT * FROM users WHERE gender='$_POST[gender]'";
-        $result = mysqli_query($connection, $query);
-        while($row = mysqli_fetch_array($result)){
-        echo $row["gender"];} }?>
+            
+    ?>
             
     
             

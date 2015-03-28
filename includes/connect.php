@@ -1,8 +1,8 @@
 <?php
-    define("DB_SERVER", "127.0.0.1");
-    define("DB_USER", "root");
-    define("DB_PASS", "qwer");
-    define("DB_NAME", "date_site");
+    define("DB_SERVER", "localhost");
+    define("DB_USER", "twaldock");
+    define("DB_PASS", "A0nIOtFuUnY=");
+    define("DB_NAME", "twaldock");
 
     $connection = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
 

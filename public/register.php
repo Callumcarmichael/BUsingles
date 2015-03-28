@@ -12,17 +12,17 @@
         $hair = $_POST["hair"];
         $age = $_POST["age"];
         $gender = $_POST["gender"];
-        $university_course = $_POST["university_course"];
+        $uni = $_POST["uni"];
         $biography = $_POST["biography"];
         
     if(strcmp($password1, $password2) == 0) {
             
-            $query = "INSERT INTO users (username, password, firstname, lastname, hair, age, gender,biography) VALUES ('{$username}', '{$password1}', '{$firstname}', '{$lastname}','{$hair}', '{$age}', '{$gender}', '{$biography}')";
+            $query = "INSERT INTO users (username, password, firstname, lastname, hair, age, gender,biography,uni) VALUES ('{$username}', '{$password1}', '{$firstname}', '{$lastname}','{$hair}', '{$age}', '{$gender}', '{$biography}', '{$uni}')";
 
             $result = mysqli_query($connection, $query);
 
             if($result) {
-                $_SESSION["message"] = "Success";
+                $_SESSION["message"] = "Success, you can now login";
                 
             } else {
                 $_SESSION["message"] = "Failed";
@@ -35,6 +35,6 @@
 
     }
 
-    redirectTo("profile.php");
+    redirectTo("index.php");
 
 ?>
