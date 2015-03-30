@@ -21,7 +21,7 @@
           <p class="pull-right visible-xs"></p>
           <div class="jumbotron">
               
-            <img id="avatar"src="http://localhost/~tessa/project/public/images/avatar" style="width:160px; height:160px">
+            <img id="avatar"src="http://localhost/~tessa/project/public/images/avatar" style="width:450px; height:450px">
               <h1>Hello 
     <?php while($row = mysqli_fetch_assoc($result)) { ?>
         <?php echo $row["firstname"]; ?></h1>
