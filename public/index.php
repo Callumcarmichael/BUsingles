@@ -5,9 +5,8 @@
 <div class="container">
 <div class="jumbotron">
       
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <h1>Welcome to BUsingles <div id="bigredheart">&hearts;</div></h1>
+        <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
       </div>
     </div>
 
@@ -28,11 +27,11 @@
           <div class="sign-up-box">
         <div class="col-md-6">
 <form action="register.php" method="post">
-        <p>First Name:</p> <input placeholder="Your First Name" type="text" required name="firstname" value=""><br>
-        <p>Last Name:</p> <input placeholder="Your Last Name" type="text" required name="lastname" value=""><br>
-        <p>Username:</p> <input placeholder="Your Username"type="text" required name="username" value=""><br>
-        <p>Password:</p> <input placeholder="Your Password" type="password" required name="password1" value=""><br>
-        <p>Retype Password:</p> <input placeholder="Retype Password"type="password" required name="password2" value=""><br>  
+        <p>First Name:</p> <input placeholder="Your First Name" type="text" style="width:300px; height:40px; font-size:20px;" required name="firstname" value=""><br>
+        <p>Last Name:</p> <input placeholder="Your Last Name" type="text" style="width:300px; height:40px; font-size:20px;" required name="lastname" value=""><br>
+        <p>Username:</p> <input placeholder="Your Username"type="text" style="width:300px; height:40px; font-size:20px;" required name="username" value=""><br>
+        <p>Password:</p> <input placeholder="Your Password" type="password" style="width:300px; height:40px; font-size:20px;" required name="password1" value=""><br>
+        <p>Retype Password:</p> <input placeholder="Retype Password"type="password" style="width:300px; height:40px; font-size:20px;" required name="password2" value=""><br>  
         </div><!--.col-md-6-->
             
         <div class="col-md-6">
@@ -59,7 +58,7 @@
                 <option value="Digital Media Design">Digital Media Design BA (Hons)</option>   
                 <option value="Advertising BA (Hons)">Advertising BA (Hons)</option>
                 <option value="Computer Animation Arts BA (Hons)">Computer Animation Arts BA (Hons)</option></select></p><br>
-        <p>Bio:</p> <textarea name="biography" maxlength="200" placeholder="Enter a short description"></textarea><br>
+        <p>Bio:</p> <textarea required name="biography" maxlength="200" placeholder="Enter a short description" style="width:370px; height:80px; font-size:20px;"></textarea><br>
            
        </div><!--.col-md-6-->
             </div><!--/.sign-up-box-->
@@ -71,12 +70,14 @@
     <div class="sign-up-box">
     <div class="col-md-6">
             <p>Select your hair colour:</p>
-                <select required name="hair">
+                <select name="hair">
                 <option value="">Select...</option>
                 <option value="Brown">Brown</option>
                 <option value="Ginger">Ginger</option>
-                <option value="Ginger">Blonde</option>
-                <option value="Ginger">Black</option></select>
+                <option value="Blonde">Blonde</option>
+                <option value="Black">Black</option>
+                <option value="Grey">Grey</option>
+                </select><br>
             <p>Drinker
                 <select name="drinker">
                 <option value="">Select...</option>
@@ -93,8 +94,8 @@
                 <option value="5ft1-5ft4">5ft1-5ft4</option>   
                 <option value="5ft5-5ft8">5ft5-5ft8</option>
                 <option value="5ft9-6ft">5ft9-6ft</option>
-                <option value="6ft1-6ft4">5ft1-5ft4</option>
-                <option value="6ft5-6ft8">5ft1-5ft4</option>
+                <option value="6ft1-6ft4">6ft1-6ft4</option>
+                <option value="6ft5-6ft8">6ft5-6ft8</option>
                 <option value="Above 6ft9">Above 6ft9</option> 
                 </select></p><br>
         </div><!--/.col-md-6-->

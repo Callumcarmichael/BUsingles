@@ -30,6 +30,7 @@
                     <option value="Ginger">Ginger</option>
                     <option value="Blonde">Blonde</option>
                     <option value="Black">Black</option>
+                    <option value="Grey">Grey</option>
                 </select>
                 <p>Male or Female?
                 <select name="gender">
@@ -80,8 +81,8 @@
                 <option value="5ft1-5ft4">5ft1-5ft4</option>   
                 <option value="5ft5-5ft8">5ft5-5ft8</option>
                 <option value="5ft9-6ft">5ft9-6ft</option>
-                <option value="6ft1-6ft4">5ft1-5ft4</option>
-                <option value="6ft5-6ft8">5ft1-5ft4</option>
+                <option value="6ft1-6ft4">6ft1-6ft4</option>
+                <option value="6ft5-6ft8">6ft5-6ft8</option>
                 <option value="Above 6ft9">Above 6ft9</option> 
                 </select></p><br>
             <p>Eye Colour

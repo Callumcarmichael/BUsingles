@@ -9,17 +9,20 @@
         $password2 = $_POST["password2"];
         $firstname = $_POST["firstname"];
         $lastname = $_POST["lastname"];
-        $hair = $_POST["hair"];
         $age = $_POST["age"];
         $gender = $_POST["gender"];
         $uni = $_POST["uni"];
         $biography = $_POST["biography"];
         $smoker = $_POST["smoker"];
+        $hair = $_POST["hair"];
+        $drinker = $_POST["drinker"];
+        $height = $_POST["height"];
+        $eyecolour = $_POST["eyecolour"];
         
         
     if(strcmp($password1, $password2) == 0) {
             
-            $query = "INSERT INTO users (username, password, firstname, lastname, hair, age, gender, uni, biography, smoker) VALUES ('{$username}', '{$password1}', '{$firstname}', '{$lastname}','{$hair}', '{$age}', '{$gender}', '{$biography}', '{$uni}', '{$smoker}')";
+            $query = "INSERT INTO users (username, password, firstname, lastname,age, gender, uni, biography, smoker, hair, drinker, height, eyecolour) VALUES ('{$username}', '{$password1}', '{$firstname}', '{$lastname}', '{$age}', '{$gender}', '{$uni}', '{$biography}', '{$smoker}', '{$hair}', '{$drinker}', '{$height}', '{$eyecolour}')";
 
             $result = mysqli_query($connection, $query);
 
