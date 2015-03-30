@@ -14,10 +14,12 @@
         $gender = $_POST["gender"];
         $uni = $_POST["uni"];
         $biography = $_POST["biography"];
+        $smoker = $_POST["smoker"];
+        
         
     if(strcmp($password1, $password2) == 0) {
             
-            $query = "INSERT INTO users (username, password, firstname, lastname, hair, age, gender,biography,uni) VALUES ('{$username}', '{$password1}', '{$firstname}', '{$lastname}','{$hair}', '{$age}', '{$gender}', '{$biography}', '{$uni}')";
+            $query = "INSERT INTO users (username, password, firstname, lastname, hair, age, gender, uni, biography, smoker) VALUES ('{$username}', '{$password1}', '{$firstname}', '{$lastname}','{$hair}', '{$age}', '{$gender}', '{$biography}', '{$uni}', '{$smoker}')";
 
             $result = mysqli_query($connection, $query);
 

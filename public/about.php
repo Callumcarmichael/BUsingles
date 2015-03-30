@@ -17,19 +17,19 @@
             <div class="col-xs-6 col-lg-4">
               <h2>Tessa Waldock</h2>
                 <img id="img"src="http://localhost/~tessa/project/public/images/Tessa.jpg" style="width:270px; border-radius:20px">
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p style="font-size:20px">My name is Tessa, I do Digital Media Design at Bournemouth University and am currently learning how to use PHP to connect to a mysql database. This project has proven to be a challenge but I am enjoying it, though I prefer doing the design side of designing a website. I am also interested in gaming and I like long walks on the beach with Callum Carmichael. </p>
               
             </div><!--/.col-xs-6.col-lg-4-->
             <div class="col-xs-6 col-lg-4">
               <h2>Callum Carmichael</h2>
                 <img id="img" src="http://localhost/~tessa/project/public/images/ME" style="width:270px; border-radius:20px">
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p style="font-family:Helvetica Neue; font-size:20px;">My name is Callum Carmichael. I love creating new things from scratch such as graphic posters, visual effects and have a passion for photography. I also now rather enjoy the side of coding because at times I have found it rather frustrating navigating websites and now have the opportunity to create my own. My other hobbies include football, music, DJing and skateboarding. I also try to travel at any opportunity I get. </p>
               
             </div><!--/.col-xs-6.col-lg-4-->
             <div class="col-xs-6 col-lg-4">
               <h2>Michael Horbacki</h2>
                 <img id="img" src="http://localhost/~tessa/project/public/images/Michael" style="width:270px; border-radius:20px">
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p style="font-size:20px">My name is Michael Horbacki. I live in London originally and study digital media design.  I like football and support Liverpool as well as Millwall. I play football every so often but not for a team at the moment. I also like to play rugby. </p>
               
             </div><!--/.col-xs-6.col-lg-4-->
             

@@ -32,6 +32,7 @@
            <ul class="nav navbar-nav">
             <li><a href="index.php">BUsingles</a></li>
             <li><a href="about.php">About</a></li>
+            <li><a href="index2.php">toggleclick</a></li>
                 <?php if (isset($_SESSION["username"])) { ?>
             <li><a href="profile.php">Your Profile</a></li>
             <li><a href="match.php">Find a Match</a></li>

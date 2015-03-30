@@ -33,7 +33,6 @@
                 <p>Hair: <?php echo $row["hair"]; ?></p>
                 <p>Gender: <?php echo $row["gender"]; ?></p>
                 <p>Biography: <?php echo $row["biography"]; ?></p>
-                <p>Profile Picture: <?php echo $row["fileToUpload"]; ?></p>
                 <p>University Course: <?php echo $row["uni"];?></p>
            
             <?php } ?>

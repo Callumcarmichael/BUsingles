@@ -4,6 +4,11 @@ body
     padding-top: 100px;
 }
 
+.register_right{
+float:right;
+
+}
+
 .profileinfo{
     width:1150px;
     background-color: rgba(139, 137, 137, 0.13);
@@ -24,8 +29,7 @@ body
     width:1150px;
     border-radius:10px;
     padding-top: 20px;
-    margin-left: 155px;
-    margin-bottom: 30px;
+    
     text-align: center;
     font-size: 21px;
     font-weight: 200;

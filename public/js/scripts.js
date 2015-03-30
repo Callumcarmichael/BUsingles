@@ -1,4 +1,5 @@
-	//When someone clicks on the navigation links
+
+//When someone clicks on the navigation links
 	$('.nav navbar-nav').click(function(e){
 		$('.nav navbar-nav').attr('id', ''); //make all navtabs inactive
 		$(this).attr('id', 'activetab'); //make the one we clicked active
