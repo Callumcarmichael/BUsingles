@@ -17,10 +17,6 @@
 </div>
 
 <div class="container">
-<div class="jumbotron" style="text-align:center" ><h3>Filter by...</h3></div>
-</div>
-
-<div class="container">
         <div class="jumbotron">
             <form name="search" method="post" action="match.php">
                 <p>Hair colour:</p>
@@ -30,7 +26,6 @@
                     <option value="Ginger">Ginger</option>
                     <option value="Blonde">Blonde</option>
                     <option value="Black">Black</option>
-                    <option value="Grey">Grey</option>
                 </select>
                 <p>Male or Female?
                 <select name="gender">
@@ -57,80 +52,27 @@
                     <option value="Computer Animation Arts BA (Hons)">Computer Animation Arts BA                    (Hons)</option>
                     <option value="History BA (Hons)">History BA (Hons)</option>
                     </select></p><br>
-                <p>Smoker
-                <select required name="smoker">
-                <option value="">Select...</option>
-                <option value="No">No</option>   
-                <option value="Light">Light</option>
-                <option value="Moderate">Moderate</option>
-                <option value="Heavy">Heavy</option>
-                </select></p><br>
-            <p>Drinker
-                <select required name="drinker">
-                <option value="">Select...</option>
-                <option value="None">None</option>   
-                <option value="Light">Light</option>   
-                <option value="Social">Social</option>
-                <option value="Frequent">Frequent</option>
-                <option value="Heavy">Heavy</option>
-                </select></p><br>
-             <p>Height
-                <select name="height">
-                <option value="">Select...</option>
-                <option value="Below 5'">Below 5'</option>   
-                <option value="5ft1-5ft4">5ft1-5ft4</option>   
-                <option value="5ft5-5ft8">5ft5-5ft8</option>
-                <option value="5ft9-6ft">5ft9-6ft</option>
-                <option value="6ft1-6ft4">6ft1-6ft4</option>
-                <option value="6ft5-6ft8">6ft5-6ft8</option>
-                <option value="Above 6ft9">Above 6ft9</option> 
-                </select></p><br>
-            <p>Eye Colour
-                <select name="eyecolour">
-                <option value="">Select...</option>
-                <option value="Blue">Blue</option>   
-                <option value="Green">Green</option>   
-                <option value="Brown">Brown</option>
-                <option value="Hazel">Hazel</option>
-                <option value="Black">Black</option>
-                <option value="Other">Other</option>
-                </select></p><br>
                 
-                 <input type="submit" name="search" value="Search" />
-            </form>
-    
-    <?php
+                 <input type="submit" name="search" value="search" style="font-size:20px" />
+              <?php
     if(isset($_POST["search"])){
         
-        if(!empty($_POST["hair"]) && !empty($_POST["gender"])) {
+        if(!empty($_POST["hair"])) {
             $hair = $_POST["hair"];
-            $gender = $_POST["gender"];
-            $age = $_POST["age"];
-            $uni = $_POST["uni"];
-
-            $query = "SELECT * FROM users WHERE hair='{$hair}' AND gender='{$gender}'AND age='{$age}'AND uni='{$uni}'";
-
+            
+            $query = "SELECT * FROM users WHERE hair='{$hair}'";
             $result = mysqli_query($connection, $query);
             while($row = mysqli_fetch_array($result)){
-
-            echo $row["firstname"];
-
+            echo "<br> ".$row["firstname"]." ". $row["lastname"]."<br>";         
+                    
             }
         }
         
         
-    }
-        
-
+    }        
+    ?> </form>
     
-            
-    ?>
-            
-    
-            
-            
-           
-        
+      
     </div><!--/.jumbotron-->
 </div><!--/.container-->
 

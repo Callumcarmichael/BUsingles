@@ -118,6 +118,43 @@
                 <option value="Black">Black</option>
                 <option value="Other">Other</option>
                 </select></p><br>
+            <p>Select your interests...<br>
+            <input type="checkbox" name="interest" value="Music">Classic Music
+            <input type="checkbox" name="interest" value="Pubs">Pubs
+            <input type="checkbox" name="interest" value="Reading">Reading
+            <input type="checkbox" name="interest" value="Movies">Movies
+            <input type="checkbox" name="interest" value="Drinking">Drinking
+            <input type="checkbox" name="interest" value="Travelling">Travelling
+            <input type="checkbox" name="interest" value="Swimming">Swimming
+            <input type="checkbox" name="interest" value="Cooking">Cooking
+            <input type="checkbox" name="interest" value="Sports">Sports
+            <input type="checkbox" name="interest" value="Dancing">Dancing<br>
+            <input type="checkbox" name="interest" value="Sex">Sex
+            <input type="checkbox" name="interest" value="Shopping">Shopping
+            <input type="checkbox" name="interest" value="Singing">Singing
+            <input type="checkbox" name="interest" value="Internet">Internet
+            <input type="checkbox" name="interest" value="Television">Television
+            <input type="checkbox" name="interest" value="Photography">Photography
+            <input type="checkbox" name="interest" value="Dating">Dating
+            <input type="checkbox" name="interest" value="Computing">Computing
+            <input type="checkbox" name="interest" value="Art">Art
+            <input type="checkbox" name="interest" value="Socialising">Socialising
+            <input type="checkbox" name="interest" value="Food">Food
+            <input type="checkbox" name="interest" value="Outdoors">Outdoors
+            <input type="checkbox" name="interest" value="Partying">Partying
+            <input type="checkbox" name="interest" value="Video games">Video games
+            <input type="checkbox" name="interest" value="Partying">Partying
+            <input type="checkbox" name="interest" value="Gym">Gym
+            <input type="checkbox" name="interest" value="Guitar">Guitar
+            <input type="checkbox" name="interest" value="Animals">Animals
+            <input type="checkbox" name="interest" value="Skiing">Skiing
+            <input type="checkbox" name="interest" value="Eating Out">Eating Out
+            <input type="checkbox" name="interest" value="Fashion">Fashion
+            <input type="checkbox" name="interest" value="Football">Football
+            <input type="checkbox" name="interest" value="Studying">Studying
+            <input type="checkbox" name="interest" value="Theater">Theater
+            <input type="checkbox" name="interest" value="Beaches">Beaches
+            </p>
         </div><!--/.col-md-6-->
             
 <input type="submit" name="register" value="register" class="btn btn-success" >
